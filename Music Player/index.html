@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-palyer">
+            <nav>
+                <div class="circle">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <div class="circle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+            <img src="media/Animal.jfif" alt="" class="song-img">
+            <h1>Arjan Vailley</h1>
+            <p>Ranveer Kapoor</p>
+
+            <audio id="song">
+                <source src="media/Arjan Vailly(PagalWorld.com.se).mp3" type="audio/mp3">
+            </audio>
+            <input type="range" name="" id="progress">
+
+            <div class="controls">
+                <div><i class="ri-rewind-mini-fill"></i></div>
+                <div onclick="PlayPasue()"><i class="ri-play-mini-fill" id="ctrlIcon"></i></div>
+                <div><i class="ri-speed-mini-fill"></i></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</htm l>
